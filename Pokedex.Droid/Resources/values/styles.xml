@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+	<style name="PokemonType">
+		<item name="android:background">@drawable/background_item_pokemon_span</item>
+		<item name="android:textColor">@android:color/white</item>
+		<item name="android:maxLines">1</item>
+		<item name="android:textSize">13dp</item>
+		<item name="android:paddingHorizontal">6dp</item>
+		<item name="android:paddingVertical">2dp</item>
+		<item name="android:shadowColor">#000000</item>
+		<item name="android:shadowDx">1.5</item>
+		<item name="android:shadowDy">1.3</item>
+		<item name="android:shadowRadius">1.6</item>
+		<item name="android:gravity">top</item>
+	</style>
+
+</resources>

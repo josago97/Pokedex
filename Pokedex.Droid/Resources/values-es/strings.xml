@@ -1,0 +1,26 @@
+<resources>
+	<string name="app_name">Pokédex</string>
+	<string name="type_bug">Bicho</string>
+	<string name="type_dark">Siniestro</string>
+	<string name="type_dragon">Dragón</string>
+	<string name="type_electric">Eléctrico</string>
+	<string name="type_fairy">Hada</string>
+	<string name="type_fighting">Lucha</string>
+	<string name="type_fire">Fuego</string>
+	<string name="type_flying">Volador</string>
+	<string name="type_ghost">Fantasma</string>
+	<string name="type_grass">Planta</string>
+	<string name="type_ground">Tierra</string>
+	<string name="type_ice">Hielo</string>
+	<string name="type_normal">Normal</string>
+	<string name="type_poison">Veneno</string>
+	<string name="type_psychic">Psíquico</string>
+	<string name="type_rock">Roca</string>
+	<string name="type_steel">Acero</string>
+	<string name="type_water">Agua</string>
+	<string name="enter_pokemon_name">Introduce nombre de pokémon</string>
+	<string name="search_pokemon">Buscar Pokémon</string>
+	<string name="camera">Cámara</string>
+	<string name="file">Archivo</string>
+	<string name="no_results">No se han encontrado resultados</string>
+</resources>

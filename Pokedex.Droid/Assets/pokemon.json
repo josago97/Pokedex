@@ -1,0 +1,1277 @@
+[
+  {
+    "Id": 1,
+    "Name": "Bulbasaur",
+    "Types": [
+      9,
+      13
+    ],
+    "ImagePath": "1.png"
+  },
+  {
+    "Id": 2,
+    "Name": "Ivysaur",
+    "Types": [
+      9,
+      13
+    ],
+    "ImagePath": "2.png"
+  },
+  {
+    "Id": 3,
+    "Name": "Venusaur",
+    "Types": [
+      9,
+      13
+    ],
+    "ImagePath": "3.png"
+  },
+  {
+    "Id": 4,
+    "Name": "Charmander",
+    "Types": [
+      6
+    ],
+    "ImagePath": "4.png"
+  },
+  {
+    "Id": 5,
+    "Name": "Charmeleon",
+    "Types": [
+      6
+    ],
+    "ImagePath": "5.png"
+  },
+  {
+    "Id": 6,
+    "Name": "Charizard",
+    "Types": [
+      6,
+      7
+    ],
+    "ImagePath": "6.png"
+  },
+  {
+    "Id": 7,
+    "Name": "Squirtle",
+    "Types": [
+      17
+    ],
+    "ImagePath": "7.png"
+  },
+  {
+    "Id": 8,
+    "Name": "Wartortle",
+    "Types": [
+      17
+    ],
+    "ImagePath": "8.png"
+  },
+  {
+    "Id": 9,
+    "Name": "Blastoise",
+    "Types": [
+      17
+    ],
+    "ImagePath": "9.png"
+  },
+  {
+    "Id": 10,
+    "Name": "Caterpie",
+    "Types": [
+      0
+    ],
+    "ImagePath": "10.png"
+  },
+  {
+    "Id": 11,
+    "Name": "Metapod",
+    "Types": [
+      0
+    ],
+    "ImagePath": "11.png"
+  },
+  {
+    "Id": 12,
+    "Name": "Butterfree",
+    "Types": [
+      0,
+      7
+    ],
+    "ImagePath": "12.png"
+  },
+  {
+    "Id": 13,
+    "Name": "Weedle",
+    "Types": [
+      0,
+      13
+    ],
+    "ImagePath": "13.png"
+  },
+  {
+    "Id": 14,
+    "Name": "Kakuna",
+    "Types": [
+      0,
+      13
+    ],
+    "ImagePath": "14.png"
+  },
+  {
+    "Id": 15,
+    "Name": "Beedrill",
+    "Types": [
+      0,
+      13
+    ],
+    "ImagePath": "15.png"
+  },
+  {
+    "Id": 16,
+    "Name": "Pidgey",
+    "Types": [
+      12,
+      7
+    ],
+    "ImagePath": "16.png"
+  },
+  {
+    "Id": 17,
+    "Name": "Pidgeotto",
+    "Types": [
+      12,
+      7
+    ],
+    "ImagePath": "17.png"
+  },
+  {
+    "Id": 18,
+    "Name": "Pidgeot",
+    "Types": [
+      12,
+      7
+    ],
+    "ImagePath": "18.png"
+  },
+  {
+    "Id": 19,
+    "Name": "Rattata",
+    "Types": [
+      12
+    ],
+    "ImagePath": "19.png"
+  },
+  {
+    "Id": 20,
+    "Name": "Raticate",
+    "Types": [
+      12
+    ],
+    "ImagePath": "20.png"
+  },
+  {
+    "Id": 21,
+    "Name": "Spearow",
+    "Types": [
+      12,
+      7
+    ],
+    "ImagePath": "21.png"
+  },
+  {
+    "Id": 22,
+    "Name": "Fearow",
+    "Types": [
+      12,
+      7
+    ],
+    "ImagePath": "22.png"
+  },
+  {
+    "Id": 23,
+    "Name": "Ekans",
+    "Types": [
+      13
+    ],
+    "ImagePath": "23.png"
+  },
+  {
+    "Id": 24,
+    "Name": "Arbok",
+    "Types": [
+      13
+    ],
+    "ImagePath": "24.png"
+  },
+  {
+    "Id": 25,
+    "Name": "Pikachu",
+    "Types": [
+      3
+    ],
+    "ImagePath": "25.png"
+  },
+  {
+    "Id": 26,
+    "Name": "Raichu",
+    "Types": [
+      3
+    ],
+    "ImagePath": "26.png"
+  },
+  {
+    "Id": 27,
+    "Name": "Sandshrew",
+    "Types": [
+      10
+    ],
+    "ImagePath": "27.png"
+  },
+  {
+    "Id": 28,
+    "Name": "Sandslash",
+    "Types": [
+      10
+    ],
+    "ImagePath": "28.png"
+  },
+  {
+    "Id": 29,
+    "Name": "Nidoran\u2640",
+    "Types": [
+      13
+    ],
+    "ImagePath": "29.png"
+  },
+  {
+    "Id": 30,
+    "Name": "Nidorina",
+    "Types": [
+      13
+    ],
+    "ImagePath": "30.png"
+  },
+  {
+    "Id": 31,
+    "Name": "Nidoqueen",
+    "Types": [
+      13,
+      10
+    ],
+    "ImagePath": "31.png"
+  },
+  {
+    "Id": 32,
+    "Name": "Nidoran\u2642",
+    "Types": [
+      13
+    ],
+    "ImagePath": "32.png"
+  },
+  {
+    "Id": 33,
+    "Name": "Nidorino",
+    "Types": [
+      13
+    ],
+    "ImagePath": "33.png"
+  },
+  {
+    "Id": 34,
+    "Name": "Nidoking",
+    "Types": [
+      13,
+      10
+    ],
+    "ImagePath": "34.png"
+  },
+  {
+    "Id": 35,
+    "Name": "Clefairy",
+    "Types": [
+      4
+    ],
+    "ImagePath": "35.png"
+  },
+  {
+    "Id": 36,
+    "Name": "Clefable",
+    "Types": [
+      4
+    ],
+    "ImagePath": "36.png"
+  },
+  {
+    "Id": 37,
+    "Name": "Vulpix",
+    "Types": [
+      6
+    ],
+    "ImagePath": "37.png"
+  },
+  {
+    "Id": 38,
+    "Name": "Ninetales",
+    "Types": [
+      6
+    ],
+    "ImagePath": "38.png"
+  },
+  {
+    "Id": 39,
+    "Name": "Jigglypuff",
+    "Types": [
+      12,
+      4
+    ],
+    "ImagePath": "39.png"
+  },
+  {
+    "Id": 40,
+    "Name": "Wigglytuff",
+    "Types": [
+      12,
+      4
+    ],
+    "ImagePath": "40.png"
+  },
+  {
+    "Id": 41,
+    "Name": "Zubat",
+    "Types": [
+      13,
+      7
+    ],
+    "ImagePath": "41.png"
+  },
+  {
+    "Id": 42,
+    "Name": "Golbat",
+    "Types": [
+      13,
+      7
+    ],
+    "ImagePath": "42.png"
+  },
+  {
+    "Id": 43,
+    "Name": "Oddish",
+    "Types": [
+      9,
+      13
+    ],
+    "ImagePath": "43.png"
+  },
+  {
+    "Id": 44,
+    "Name": "Gloom",
+    "Types": [
+      9,
+      13
+    ],
+    "ImagePath": "44.png"
+  },
+  {
+    "Id": 45,
+    "Name": "Vileplume",
+    "Types": [
+      9,
+      13
+    ],
+    "ImagePath": "45.png"
+  },
+  {
+    "Id": 46,
+    "Name": "Paras",
+    "Types": [
+      0,
+      9
+    ],
+    "ImagePath": "46.png"
+  },
+  {
+    "Id": 47,
+    "Name": "Parasect",
+    "Types": [
+      0,
+      9
+    ],
+    "ImagePath": "47.png"
+  },
+  {
+    "Id": 48,
+    "Name": "Venonat",
+    "Types": [
+      0,
+      13
+    ],
+    "ImagePath": "48.png"
+  },
+  {
+    "Id": 49,
+    "Name": "Venomoth",
+    "Types": [
+      0,
+      13
+    ],
+    "ImagePath": "49.png"
+  },
+  {
+    "Id": 50,
+    "Name": "Diglett",
+    "Types": [
+      10
+    ],
+    "ImagePath": "50.png"
+  },
+  {
+    "Id": 51,
+    "Name": "Dugtrio",
+    "Types": [
+      10
+    ],
+    "ImagePath": "51.png"
+  },
+  {
+    "Id": 52,
+    "Name": "Meowth",
+    "Types": [
+      12
+    ],
+    "ImagePath": "52.png"
+  },
+  {
+    "Id": 53,
+    "Name": "Persian",
+    "Types": [
+      12
+    ],
+    "ImagePath": "53.png"
+  },
+  {
+    "Id": 54,
+    "Name": "Psyduck",
+    "Types": [
+      17
+    ],
+    "ImagePath": "54.png"
+  },
+  {
+    "Id": 55,
+    "Name": "Golduck",
+    "Types": [
+      17
+    ],
+    "ImagePath": "55.png"
+  },
+  {
+    "Id": 56,
+    "Name": "Mankey",
+    "Types": [
+      5
+    ],
+    "ImagePath": "56.png"
+  },
+  {
+    "Id": 57,
+    "Name": "Primeape",
+    "Types": [
+      5
+    ],
+    "ImagePath": "57.png"
+  },
+  {
+    "Id": 58,
+    "Name": "Growlithe",
+    "Types": [
+      6
+    ],
+    "ImagePath": "58.png"
+  },
+  {
+    "Id": 59,
+    "Name": "Arcanine",
+    "Types": [
+      6
+    ],
+    "ImagePath": "59.png"
+  },
+  {
+    "Id": 60,
+    "Name": "Poliwag",
+    "Types": [
+      17
+    ],
+    "ImagePath": "60.png"
+  },
+  {
+    "Id": 61,
+    "Name": "Poliwhirl",
+    "Types": [
+      17
+    ],
+    "ImagePath": "61.png"
+  },
+  {
+    "Id": 62,
+    "Name": "Poliwrath",
+    "Types": [
+      17,
+      5
+    ],
+    "ImagePath": "62.png"
+  },
+  {
+    "Id": 63,
+    "Name": "Abra",
+    "Types": [
+      14
+    ],
+    "ImagePath": "63.png"
+  },
+  {
+    "Id": 64,
+    "Name": "Kadabra",
+    "Types": [
+      14
+    ],
+    "ImagePath": "64.png"
+  },
+  {
+    "Id": 65,
+    "Name": "Alakazam",
+    "Types": [
+      14
+    ],
+    "ImagePath": "65.png"
+  },
+  {
+    "Id": 66,
+    "Name": "Machop",
+    "Types": [
+      5
+    ],
+    "ImagePath": "66.png"
+  },
+  {
+    "Id": 67,
+    "Name": "Machoke",
+    "Types": [
+      5
+    ],
+    "ImagePath": "67.png"
+  },
+  {
+    "Id": 68,
+    "Name": "Machamp",
+    "Types": [
+      5
+    ],
+    "ImagePath": "68.png"
+  },
+  {
+    "Id": 69,
+    "Name": "Bellsprout",
+    "Types": [
+      9,
+      13
+    ],
+    "ImagePath": "69.png"
+  },
+  {
+    "Id": 70,
+    "Name": "Weepinbell",
+    "Types": [
+      9,
+      13
+    ],
+    "ImagePath": "70.png"
+  },
+  {
+    "Id": 71,
+    "Name": "Victreebel",
+    "Types": [
+      9,
+      13
+    ],
+    "ImagePath": "71.png"
+  },
+  {
+    "Id": 72,
+    "Name": "Tentacool",
+    "Types": [
+      17,
+      13
+    ],
+    "ImagePath": "72.png"
+  },
+  {
+    "Id": 73,
+    "Name": "Tentacruel",
+    "Types": [
+      17,
+      13
+    ],
+    "ImagePath": "73.png"
+  },
+  {
+    "Id": 74,
+    "Name": "Geodude",
+    "Types": [
+      15,
+      10
+    ],
+    "ImagePath": "74.png"
+  },
+  {
+    "Id": 75,
+    "Name": "Graveler",
+    "Types": [
+      15,
+      10
+    ],
+    "ImagePath": "75.png"
+  },
+  {
+    "Id": 76,
+    "Name": "Golem",
+    "Types": [
+      15,
+      10
+    ],
+    "ImagePath": "76.png"
+  },
+  {
+    "Id": 77,
+    "Name": "Ponyta",
+    "Types": [
+      6
+    ],
+    "ImagePath": "77.png"
+  },
+  {
+    "Id": 78,
+    "Name": "Rapidash",
+    "Types": [
+      6
+    ],
+    "ImagePath": "78.png"
+  },
+  {
+    "Id": 79,
+    "Name": "Slowpoke",
+    "Types": [
+      17,
+      14
+    ],
+    "ImagePath": "79.png"
+  },
+  {
+    "Id": 80,
+    "Name": "Slowbro",
+    "Types": [
+      17,
+      14
+    ],
+    "ImagePath": "80.png"
+  },
+  {
+    "Id": 81,
+    "Name": "Magnemite",
+    "Types": [
+      3,
+      16
+    ],
+    "ImagePath": "81.png"
+  },
+  {
+    "Id": 82,
+    "Name": "Magneton",
+    "Types": [
+      3,
+      16
+    ],
+    "ImagePath": "82.png"
+  },
+  {
+    "Id": 83,
+    "Name": "Farfetch\u2019d",
+    "Types": [
+      12,
+      7
+    ],
+    "ImagePath": "83.png"
+  },
+  {
+    "Id": 84,
+    "Name": "Doduo",
+    "Types": [
+      12,
+      7
+    ],
+    "ImagePath": "84.png"
+  },
+  {
+    "Id": 85,
+    "Name": "Dodrio",
+    "Types": [
+      12,
+      7
+    ],
+    "ImagePath": "85.png"
+  },
+  {
+    "Id": 86,
+    "Name": "Seel",
+    "Types": [
+      17
+    ],
+    "ImagePath": "86.png"
+  },
+  {
+    "Id": 87,
+    "Name": "Dewgong",
+    "Types": [
+      17,
+      11
+    ],
+    "ImagePath": "87.png"
+  },
+  {
+    "Id": 88,
+    "Name": "Grimer",
+    "Types": [
+      13
+    ],
+    "ImagePath": "88.png"
+  },
+  {
+    "Id": 89,
+    "Name": "Muk",
+    "Types": [
+      13
+    ],
+    "ImagePath": "89.png"
+  },
+  {
+    "Id": 90,
+    "Name": "Shellder",
+    "Types": [
+      17
+    ],
+    "ImagePath": "90.png"
+  },
+  {
+    "Id": 91,
+    "Name": "Cloyster",
+    "Types": [
+      17,
+      11
+    ],
+    "ImagePath": "91.png"
+  },
+  {
+    "Id": 92,
+    "Name": "Gastly",
+    "Types": [
+      8,
+      13
+    ],
+    "ImagePath": "92.png"
+  },
+  {
+    "Id": 93,
+    "Name": "Haunter",
+    "Types": [
+      8,
+      13
+    ],
+    "ImagePath": "93.png"
+  },
+  {
+    "Id": 94,
+    "Name": "Gengar",
+    "Types": [
+      8,
+      13
+    ],
+    "ImagePath": "94.png"
+  },
+  {
+    "Id": 95,
+    "Name": "Onix",
+    "Types": [
+      15,
+      10
+    ],
+    "ImagePath": "95.png"
+  },
+  {
+    "Id": 96,
+    "Name": "Drowzee",
+    "Types": [
+      14
+    ],
+    "ImagePath": "96.png"
+  },
+  {
+    "Id": 97,
+    "Name": "Hypno",
+    "Types": [
+      14
+    ],
+    "ImagePath": "97.png"
+  },
+  {
+    "Id": 98,
+    "Name": "Krabby",
+    "Types": [
+      17
+    ],
+    "ImagePath": "98.png"
+  },
+  {
+    "Id": 99,
+    "Name": "Kingler",
+    "Types": [
+      17
+    ],
+    "ImagePath": "99.png"
+  },
+  {
+    "Id": 100,
+    "Name": "Voltorb",
+    "Types": [
+      3
+    ],
+    "ImagePath": "100.png"
+  },
+  {
+    "Id": 101,
+    "Name": "Electrode",
+    "Types": [
+      3
+    ],
+    "ImagePath": "101.png"
+  },
+  {
+    "Id": 102,
+    "Name": "Exeggcute",
+    "Types": [
+      9,
+      14
+    ],
+    "ImagePath": "102.png"
+  },
+  {
+    "Id": 103,
+    "Name": "Exeggutor",
+    "Types": [
+      9,
+      14
+    ],
+    "ImagePath": "103.png"
+  },
+  {
+    "Id": 104,
+    "Name": "Cubone",
+    "Types": [
+      10
+    ],
+    "ImagePath": "104.png"
+  },
+  {
+    "Id": 105,
+    "Name": "Marowak",
+    "Types": [
+      10
+    ],
+    "ImagePath": "105.png"
+  },
+  {
+    "Id": 106,
+    "Name": "Hitmonlee",
+    "Types": [
+      5
+    ],
+    "ImagePath": "106.png"
+  },
+  {
+    "Id": 107,
+    "Name": "Hitmonchan",
+    "Types": [
+      5
+    ],
+    "ImagePath": "107.png"
+  },
+  {
+    "Id": 108,
+    "Name": "Lickitung",
+    "Types": [
+      12
+    ],
+    "ImagePath": "108.png"
+  },
+  {
+    "Id": 109,
+    "Name": "Koffing",
+    "Types": [
+      13
+    ],
+    "ImagePath": "109.png"
+  },
+  {
+    "Id": 110,
+    "Name": "Weezing",
+    "Types": [
+      13
+    ],
+    "ImagePath": "110.png"
+  },
+  {
+    "Id": 111,
+    "Name": "Rhyhorn",
+    "Types": [
+      10,
+      15
+    ],
+    "ImagePath": "111.png"
+  },
+  {
+    "Id": 112,
+    "Name": "Rhydon",
+    "Types": [
+      10,
+      15
+    ],
+    "ImagePath": "112.png"
+  },
+  {
+    "Id": 113,
+    "Name": "Chansey",
+    "Types": [
+      12
+    ],
+    "ImagePath": "113.png"
+  },
+  {
+    "Id": 114,
+    "Name": "Tangela",
+    "Types": [
+      9
+    ],
+    "ImagePath": "114.png"
+  },
+  {
+    "Id": 115,
+    "Name": "Kangaskhan",
+    "Types": [
+      12
+    ],
+    "ImagePath": "115.png"
+  },
+  {
+    "Id": 116,
+    "Name": "Horsea",
+    "Types": [
+      17
+    ],
+    "ImagePath": "116.png"
+  },
+  {
+    "Id": 117,
+    "Name": "Seadra",
+    "Types": [
+      17
+    ],
+    "ImagePath": "117.png"
+  },
+  {
+    "Id": 118,
+    "Name": "Goldeen",
+    "Types": [
+      17
+    ],
+    "ImagePath": "118.png"
+  },
+  {
+    "Id": 119,
+    "Name": "Seaking",
+    "Types": [
+      17
+    ],
+    "ImagePath": "119.png"
+  },
+  {
+    "Id": 120,
+    "Name": "Staryu",
+    "Types": [
+      17
+    ],
+    "ImagePath": "120.png"
+  },
+  {
+    "Id": 121,
+    "Name": "Starmie",
+    "Types": [
+      17,
+      14
+    ],
+    "ImagePath": "121.png"
+  },
+  {
+    "Id": 122,
+    "Name": "Mr. Mime",
+    "Types": [
+      14,
+      4
+    ],
+    "ImagePath": "122.png"
+  },
+  {
+    "Id": 123,
+    "Name": "Scyther",
+    "Types": [
+      0,
+      7
+    ],
+    "ImagePath": "123.png"
+  },
+  {
+    "Id": 124,
+    "Name": "Jynx",
+    "Types": [
+      11,
+      14
+    ],
+    "ImagePath": "124.png"
+  },
+  {
+    "Id": 125,
+    "Name": "Electabuzz",
+    "Types": [
+      3
+    ],
+    "ImagePath": "125.png"
+  },
+  {
+    "Id": 126,
+    "Name": "Magmar",
+    "Types": [
+      6
+    ],
+    "ImagePath": "126.png"
+  },
+  {
+    "Id": 127,
+    "Name": "Pinsir",
+    "Types": [
+      0
+    ],
+    "ImagePath": "127.png"
+  },
+  {
+    "Id": 128,
+    "Name": "Tauros",
+    "Types": [
+      12
+    ],
+    "ImagePath": "128.png"
+  },
+  {
+    "Id": 129,
+    "Name": "Magikarp",
+    "Types": [
+      17
+    ],
+    "ImagePath": "129.png"
+  },
+  {
+    "Id": 130,
+    "Name": "Gyarados",
+    "Types": [
+      17,
+      7
+    ],
+    "ImagePath": "130.png"
+  },
+  {
+    "Id": 131,
+    "Name": "Lapras",
+    "Types": [
+      17,
+      11
+    ],
+    "ImagePath": "131.png"
+  },
+  {
+    "Id": 132,
+    "Name": "Ditto",
+    "Types": [
+      12
+    ],
+    "ImagePath": "132.png"
+  },
+  {
+    "Id": 133,
+    "Name": "Eevee",
+    "Types": [
+      12
+    ],
+    "ImagePath": "133.png"
+  },
+  {
+    "Id": 134,
+    "Name": "Vaporeon",
+    "Types": [
+      17
+    ],
+    "ImagePath": "134.png"
+  },
+  {
+    "Id": 135,
+    "Name": "Jolteon",
+    "Types": [
+      3
+    ],
+    "ImagePath": "135.png"
+  },
+  {
+    "Id": 136,
+    "Name": "Flareon",
+    "Types": [
+      6
+    ],
+    "ImagePath": "136.png"
+  },
+  {
+    "Id": 137,
+    "Name": "Porygon",
+    "Types": [
+      12
+    ],
+    "ImagePath": "137.png"
+  },
+  {
+    "Id": 138,
+    "Name": "Omanyte",
+    "Types": [
+      15,
+      17
+    ],
+    "ImagePath": "138.png"
+  },
+  {
+    "Id": 139,
+    "Name": "Omastar",
+    "Types": [
+      15,
+      17
+    ],
+    "ImagePath": "139.png"
+  },
+  {
+    "Id": 140,
+    "Name": "Kabuto",
+    "Types": [
+      15,
+      17
+    ],
+    "ImagePath": "140.png"
+  },
+  {
+    "Id": 141,
+    "Name": "Kabutops",
+    "Types": [
+      15,
+      17
+    ],
+    "ImagePath": "141.png"
+  },
+  {
+    "Id": 142,
+    "Name": "Aerodactyl",
+    "Types": [
+      15,
+      7
+    ],
+    "ImagePath": "142.png"
+  },
+  {
+    "Id": 143,
+    "Name": "Snorlax",
+    "Types": [
+      12
+    ],
+    "ImagePath": "143.png"
+  },
+  {
+    "Id": 144,
+    "Name": "Articuno",
+    "Types": [
+      11,
+      7
+    ],
+    "ImagePath": "144.png"
+  },
+  {
+    "Id": 145,
+    "Name": "Zapdos",
+    "Types": [
+      3,
+      7
+    ],
+    "ImagePath": "145.png"
+  },
+  {
+    "Id": 146,
+    "Name": "Moltres",
+    "Types": [
+      6,
+      7
+    ],
+    "ImagePath": "146.png"
+  },
+  {
+    "Id": 147,
+    "Name": "Dratini",
+    "Types": [
+      2
+    ],
+    "ImagePath": "147.png"
+  },
+  {
+    "Id": 148,
+    "Name": "Dragonair",
+    "Types": [
+      2
+    ],
+    "ImagePath": "148.png"
+  },
+  {
+    "Id": 149,
+    "Name": "Dragonite",
+    "Types": [
+      2,
+      7
+    ],
+    "ImagePath": "149.png"
+  },
+  {
+    "Id": 150,
+    "Name": "Mewtwo",
+    "Types": [
+      14
+    ],
+    "ImagePath": "150.png"
+  },
+  {
+    "Id": 151,
+    "Name": "Mew",
+    "Types": [
+      14
+    ],
+    "ImagePath": "151.png"
+  }
+]
