@@ -66,6 +66,12 @@ namespace Pokedex.Droid.Activities
             _progressBar.Visibility = ViewStates.Gone;
             _noResultsTextView.Visibility = ViewStates.Gone;
             _resultsListView.Visibility = ViewStates.Gone;
+
+
+
+
+
+
         }
 
         private void OnSearchByCameraButtonClicked(object sender, EventArgs e)

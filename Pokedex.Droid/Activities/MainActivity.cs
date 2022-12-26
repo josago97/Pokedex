@@ -3,6 +3,7 @@ using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
 using Pokedex.Droid.Data;
+using Pokedex.Droid.Logic;
 using Sharplus.System;
 
 namespace Pokedex.Droid.Activities
@@ -20,7 +21,9 @@ namespace Pokedex.Droid.Activities
 
             EnvironmentUtils.LoadVariables(Assets.Open("Environment.env"));
             await DataManager.InitAsync(this);
-            
+
+            TensorflowClassifier f = new TensorflowClassifier();
+
             StartActivity(typeof(PokemonListActivity));
             Finish();
         }

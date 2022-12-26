@@ -4,6 +4,7 @@ using System.Drawing.Imaging;
 using Microsoft.ML;
 using Microsoft.ML.Vision;
 using Pokedex.Common.MachineLearning;
+using Tensorflow.Keras.Engine;
 using static Microsoft.ML.Transforms.ValueToKeyMappingEstimator;
 
 namespace Pokedex.ModelBuilder
@@ -12,12 +13,13 @@ namespace Pokedex.ModelBuilder
     {
         private static readonly string[] EXTENSIONS = { "jpg", "jpeg", "png" };
 
-        public void Train(string imagesPath, string modelName)
+        public void Train(string imagesPath, string modelPath)
         {
             Stopwatch stopwatch = Stopwatch.StartNew();
             MLContext mlContext = new MLContext();
 
             // 1. Load the initial full image-set into an IDataView and shuffle so it'll be better balanced
+            Console.WriteLine("Loading images...");
             InputModel[] images = LoadImages(imagesPath);
             IDataView fullImagesDataset = mlContext.Data.LoadFromEnumerable(images);
             IDataView shuffledFullImageFilePathsDataset = fullImagesDataset; // mlContext.Data.ShuffleRows(fullImagesDataset);
@@ -68,12 +70,12 @@ namespace Pokedex.ModelBuilder
             Console.WriteLine($"TensorFlow DNN Transfer Learning | MacroAccuracy: {metrics.MacroAccuracy}, MicroAccuracy: {metrics.MicroAccuracy}");
             Console.WriteLine("Training successfuly");
 
-            mlContext.Model.Save(trainedModel, fullImagesDataset.Schema, $"{modelName}.zip");
+            mlContext.Model.Save(trainedModel, fullImagesDataset.Schema, $"{modelPath}.zip");
             /*using FileStream stream = File.Create("PokedexModel.onnx");
             mlContext.Model.ConvertToOnnx(trainedModel, trainDataView, stream);*/
         }
 
-        private InputModel[] LoadImages(string imagesPath)
+        /*private InputModel[] LoadImages(string imagesPath)
         {
             var tasks = Directory.EnumerateDirectories(imagesPath)
                 .Select(d => Task.Run(() =>
@@ -94,6 +96,36 @@ namespace Pokedex.ModelBuilder
                     .Select(x => x.Model)
                     .ToArray())
                 .Result;
+        }*/
+
+        private InputModel[] LoadImages(string imagesPath)
+        {
+            string[] directories = Directory.EnumerateDirectories(imagesPath).ToArray();
+            (int Id, InputModel[] Models)[] data = new (int Id, InputModel[] Models)[directories.Length];
+
+            Parallel.For(0, directories.Length, i =>
+            {
+                string folder = directories[i];
+                string folderName = Path.GetFileName(folder);
+                int separatorIndex = folderName.IndexOf(' ');
+                int pokemonId = int.Parse(folderName.Substring(0, separatorIndex));
+                string pokemonName = folderName.Substring(separatorIndex + 1);
+                string[] images = Directory.EnumerateFiles(folder)
+                    .Where(f => EXTENSIONS.Contains(Path.GetExtension(f).Substring(1)))
+                    .ToArray();
+                InputModel[] models = new InputModel[images.Length];
+
+                Parallel.For(0, images.Length, j =>
+                {
+                    models[j] = GetInputModel(pokemonName, images[j]);
+                });
+
+                data[i] = (pokemonId, models);
+            });
+
+            return data.OrderBy(x => x.Id)
+                .SelectMany(x => x.Models)
+                .ToArray();
         }
 
         private InputModel GetInputModel(string pokemonName, string file)

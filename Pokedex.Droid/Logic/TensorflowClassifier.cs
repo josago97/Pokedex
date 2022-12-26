@@ -1,10 +1,52 @@
-﻿namespace Pokedex.Droid.Logic
+﻿using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using Android.App;
+using Android.Content.Res;
+using Android.Graphics;
+using Java.IO;
+using Java.Nio;
+using Java.Nio.Channels;
+using Xamarin.TensorFlow.Lite;
+
+namespace Pokedex.Droid.Logic
 {
+    public class ImageClassificationModel
+    {
+        public ImageClassificationModel(string tagName, float probability)
+        {
+            TagName = tagName;
+            Probability = probability;
+        }
+
+        public float Probability { get; }
+        public string TagName { get; }
+    }
 
     // Class prepared for when the model can be used with Tensorflow Lite and Tensorflow.Lite-Select-TF-Ops
-    /*
     public class TensorflowClassifier
     {
+        private const string MODEL_NAME = "model.tflite";
+
+        private Interpreter _interpreter;
+
+        public TensorflowClassifier()
+        {
+            _interpreter = GetInterpreter();
+        }
+
+        private Interpreter GetInterpreter()
+        {
+            //Convert model.tflite to Java.Nio.MappedByteBuffer, the require type for Xamarin.TensorFlow.Lite.Interpreter
+            AssetFileDescriptor assetDescriptor = Application.Context.Assets.OpenFd(MODEL_NAME);
+            FileInputStream inputStream = new FileInputStream(assetDescriptor.FileDescriptor);
+            MappedByteBuffer mappedByteBuffer = inputStream.Channel.Map(FileChannel.MapMode.ReadOnly, assetDescriptor.StartOffset, assetDescriptor.DeclaredLength);
+
+            return new Interpreter(mappedByteBuffer);
+        }
+
+
+
         //FloatSize is a constant with the value of 4 because a float value is 4 bytes
         const int FloatSize = 4;
         //PixelSize is a constant with the value of 3 because a pixel has three color channels: Red Green and Blue
@@ -12,11 +54,8 @@
 
         public List<ImageClassificationModel> Classify(byte[] image)
         {
-            var mappedByteBuffer = GetModelAsMappedByteBuffer();
-            var interpreter = new Interpreter(mappedByteBuffer);
-
             //To resize the image, we first need to get its required width and height
-            var tensor = interpreter.GetInputTensor(0);
+            var tensor = _interpreter.GetInputTensor(0);
             var shape = tensor.Shape();
 
             var width = shape[1];
@@ -34,7 +73,7 @@
             var outputLocations = new float[1][] { new float[labels.Count] };
             var outputs = Java.Lang.Object.FromArray(outputLocations);
 
-            interpreter.Run(byteBuffer, outputs);
+            _interpreter.Run(byteBuffer, outputs);
             var classificationResult = outputs.ToArray<float[]>();
 
             //Map the classificationResult to the labels and sort the result to find which label has the highest probability
@@ -42,22 +81,13 @@
 
             for (var i = 0; i < labels.Count; i++)
             {
-                var label = labels[i]; classificationModelList.Add(new ImageClassificationModel(label, classificationResult[0][i]));
+                var label = labels[i]; 
+                classificationModelList.Add(new ImageClassificationModel(label, classificationResult[0][i]));
             }
 
             return classificationModelList;
         }
 
-        //Convert model.tflite to Java.Nio.MappedByteBuffer , the require type for Xamarin.TensorFlow.Lite.Interpreter
-        private MappedByteBuffer GetModelAsMappedByteBuffer()
-        {
-            var assetDescriptor = Application.Context.Assets.OpenFd("model.tflite");
-            var inputStream = new FileInputStream(assetDescriptor.FileDescriptor);
-
-            var mappedByteBuffer = inputStream.Channel.Map(FileChannel.MapMode.ReadOnly, assetDescriptor.StartOffset, assetDescriptor.DeclaredLength);
-
-            return mappedByteBuffer;
-        }
 
         //Resize the image for the TensorFlow interpreter
         private ByteBuffer GetPhotoAsByteBuffer(byte[] image, int width, int height)
@@ -91,5 +121,5 @@
 
             return byteBuffer;
         }
-    }*/
+    }
 }
